@@ -4,7 +4,7 @@ import requests
 
 st.title("Solar Inverter Energy Monitoring")
 
-WEBHOOK_URL = "https://alpino-ai.app.n8n.cloud/webhook-test/duka-solar-inverter"
+WEBHOOK_URL = "https://alpino-ai.app.n8n.cloud/webhook/duka-solar-inverter"
 
 try:
     response = requests.get(WEBHOOK_URL)
